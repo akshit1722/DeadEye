@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "cyclone_id": "CYC-2026-SAGAR",
+    "name": "Cyclone Sagar (Alpha-26)",
+    "basin": "Bay of Bengal (North Indian Ocean)",
+    "season": "2026",
+    "source": "DeadEye Demo Track — Based on IMD Historical Pattern (Fani-2019 analog)",
+    "generated_at": "2026-09-29T00:00:00Z"
+  },
+  "active_cyclone": {
+    "id": "CYC-2026-SAGAR",
+    "name": "Cyclone Sagar (Alpha-26)",
+    "basin": "Bay of Bengal (North Indian Ocean)",
+    "current_position": { "lat": 16.8, "lon": 87.5 },
+    "wind_speed_knots": 95,
+    "wind_speed_kmh": 176,
+    "central_pressure_hpa": 958,
+    "sea_surface_temp_c": 30.2,
+    "rapid_intensification": true,
+    "last_updated": "2026-09-29T09:30:00Z"
+  },
+  "historical_track": [
+    {
+      "timestamp": "2026-09-24T00:00:00Z",
+      "label": "Day 1 — Tropical Low Genesis",
+      "lat": 10.2,
+      "lon": 90.8,
+      "wind_speed_knots": 22,
+      "pressure_hpa": 1005,
+      "category": "Low Pressure Area",
+      "category_code": "LPA",
+      "sea_surface_temp_c": 29.4,
+      "phase": "genesis"
+    },
+    {
+      "timestamp": "2026-09-25T00:00:00Z",
+      "label": "Day 2 — Depression Forming",
+      "lat": 11.4,
+      "lon": 90.1,
+      "wind_speed_knots": 30,
+      "pressure_hpa": 1000,
+      "category": "Depression",
+      "category_code": "D",
+      "sea_surface_temp_c": 29.7,
+      "phase": "depression"
+    },
+    {
+      "timestamp": "2026-09-25T12:00:00Z",
+      "label": "Day 2.5 — Deep Depression",
+      "lat": 12.1,
+      "lon": 89.6,
+      "wind_speed_knots": 35,
+      "pressure_hpa": 995,
+      "category": "Deep Depression",
+      "category_code": "DD",
+      "sea_surface_temp_c": 30.0,
+      "phase": "deepening"
+    },
+    {
+      "timestamp": "2026-09-26T00:00:00Z",
+      "label": "Day 3 — Cyclonic Storm",
+      "lat": 13.0,
+      "lon": 89.0,
+      "wind_speed_knots": 48,
+      "pressure_hpa": 988,
+      "category": "Cyclonic Storm",
+      "category_code": "CS",
+      "sea_surface_temp_c": 30.1,
+      "phase": "cyclone"
+    },
+    {
+      "timestamp": "2026-09-26T12:00:00Z",
+      "label": "Day 3.5 — Severe Cyclonic Storm",
+      "lat": 13.9,
+      "lon": 88.5,
+      "wind_speed_knots": 62,
+      "pressure_hpa": 978,
+      "category": "Severe Cyclonic Storm",
+      "category_code": "SCS",
+      "sea_surface_temp_c": 30.2,
+      "phase": "intensifying"
+    },
+    {
+      "timestamp": "2026-09-27T00:00:00Z",
+      "label": "Day 4 — Very Severe (RI onset)",
+      "lat": 14.8,
+      "lon": 88.1,
+      "wind_speed_knots": 78,
+      "pressure_hpa": 968,
+      "category": "Very Severe Cyclonic Storm",
+      "category_code": "VSCS",
+      "sea_surface_temp_c": 30.3,
+      "rapid_intensification": true,
+      "phase": "rapid_intensification"
+    },
+    {
+      "timestamp": "2026-09-27T12:00:00Z",
+      "label": "Day 4.5 — RI Underway",
+      "lat": 15.5,
+      "lon": 87.9,
+      "wind_speed_knots": 88,
+      "pressure_hpa": 962,
+      "category": "Very Severe Cyclonic Storm",
+      "category_code": "VSCS",
+      "sea_surface_temp_c": 30.2,
+      "rapid_intensification": true,
+      "phase": "rapid_intensification"
+    },
+    {
+      "timestamp": "2026-09-28T00:00:00Z",
+      "label": "Day 5 — Extremely Severe",
+      "lat": 16.2,
+      "lon": 87.7,
+      "wind_speed_knots": 95,
+      "pressure_hpa": 958,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "sea_surface_temp_c": 30.2,
+      "rapid_intensification": true,
+      "phase": "peak"
+    },
+    {
+      "timestamp": "2026-09-29T00:00:00Z",
+      "label": "Day 6 — CURRENT POSITION (Peak Intensity)",
+      "lat": 16.8,
+      "lon": 87.5,
+      "wind_speed_knots": 100,
+      "pressure_hpa": 955,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "sea_surface_temp_c": 30.1,
+      "rapid_intensification": false,
+      "phase": "current",
+      "is_current": true
+    }
+  ],
+  "forecast_track": [
+    {
+      "step_hours": 6,
+      "timestamp": "2026-09-29T06:00:00Z",
+      "label": "T+6h Forecast",
+      "lat": 17.3,
+      "lon": 87.1,
+      "wind_speed_knots": 102,
+      "pressure_hpa": 952,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "uncertainty_radius_km": 38,
+      "phase": "forecast"
+    },
+    {
+      "step_hours": 12,
+      "timestamp": "2026-09-29T12:00:00Z",
+      "label": "T+12h Forecast",
+      "lat": 17.9,
+      "lon": 86.7,
+      "wind_speed_knots": 108,
+      "pressure_hpa": 947,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "uncertainty_radius_km": 52,
+      "phase": "forecast"
+    },
+    {
+      "step_hours": 24,
+      "timestamp": "2026-09-30T00:00:00Z",
+      "label": "T+24h Forecast",
+      "lat": 18.9,
+      "lon": 86.2,
+      "wind_speed_knots": 112,
+      "pressure_hpa": 942,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "uncertainty_radius_km": 75,
+      "phase": "forecast"
+    },
+    {
+      "step_hours": 36,
+      "timestamp": "2026-09-30T12:00:00Z",
+      "label": "T+36h Forecast",
+      "lat": 19.8,
+      "lon": 85.9,
+      "wind_speed_knots": 110,
+      "pressure_hpa": 944,
+      "category": "Extremely Severe Cyclonic Storm",
+      "category_code": "ESCS",
+      "uncertainty_radius_km": 98,
+      "phase": "forecast"
+    },
+    {
+      "step_hours": 48,
+      "timestamp": "2026-10-01T00:00:00Z",
+      "label": "T+48h — LANDFALL",
+      "lat": 20.2,
+      "lon": 86.0,
+      "wind_speed_knots": 95,
+      "pressure_hpa": 958,
+      "category": "Very Severe Cyclonic Storm",
+      "category_code": "VSCS",
+      "uncertainty_radius_km": 120,
+      "phase": "landfall"
+    },
+    {
+      "step_hours": 72,
+      "timestamp": "2026-10-02T00:00:00Z",
+      "label": "T+72h Post-Landfall",
+      "lat": 21.8,
+      "lon": 85.5,
+      "wind_speed_knots": 45,
+      "pressure_hpa": 988,
+      "category": "Cyclonic Storm",
+      "category_code": "CS",
+      "uncertainty_radius_km": 165,
+      "phase": "weakening"
+    }
+  ],
+  "landfall_forecast": {
+    "estimated_time_hours": 48,
+    "projected_lat": 20.2,
+    "projected_lon": 86.0,
+    "wind_at_landfall_knots": 95,
+    "estimated_region": "Puri – Paradeep Coastal Corridor (Odisha)",
+    "storm_surge_meters": 2.85,
+    "alert_zone_radius_km": 120
+  },
+  "models": {
+    "detection": {
+      "cyclone_detected": true,
+      "genesis_probability": 0.98,
+      "confidence": 0.97,
+      "threat_level": "High",
+      "detected_center": { "latitude": 16.8, "longitude": 87.5 },
+      "environmental_diagnostics": {
+        "sst_favorable": true,
+        "coriolis_sufficient": true,
+        "shear_favorable": true
+      }
+    },
+    "classification": {
+      "wind_speed_knots": 100,
+      "wind_speed_kmh": 185,
+      "central_pressure_hpa": 955,
+      "imd_category": "Extremely Severe Cyclonic Storm",
+      "imd_code": "ESCS",
+      "saffir_simpson_equivalent": "Category 3-4 Major Hurricane",
+      "threat_severity": "Extreme",
+      "estimated_storm_surge_meters": 2.85,
+      "radius_of_gale_winds_km": 292
+    },
+    "monitoring": {
+      "cyclone_id": "CYC-2026-SAGAR",
+      "status": "Rapid Intensification Underway",
+      "rapid_intensification_alert": true,
+      "24h_pressure_change_hpa": -30,
+      "24h_wind_change_knots": 32,
+      "convective_symmetry_score": 0.91,
+      "radar_reflectivity_dbz": 52.5
+    }
+  },
+  "ai_insights": {
+    "impact_summary": {
+      "headline": "EXTREMELY SEVERE CYCLONIC STORM \"SAGAR\" ACCELERATING TOWARD ODISHA COAST",
+      "alert_level": "RED",
+      "threat_assessment": "Cyclone Sagar has intensified to an Extremely Severe Cyclonic Storm packing sustained winds of 100 knots (185 km/h) and a central pressure of 955 hPa. The system underwent Rapid Intensification over warm Bay of Bengal waters at 30.2°C, gaining 32 knots in 24 hours.",
+      "landfall_warning": "Projected landfall near Puri–Paradeep Coastal Corridor (Odisha) in ~48 hours with landfall winds of ~95 knots. All coastal districts within 120 km radius are under Red Alert.",
+      "surge_and_flood_risk": "Estimated peak storm surge of 2.85 meters above normal astronomical tide, posing catastrophic inundation risk to low-lying areas within 5 km of the coastline.",
+      "actionable_directives": [
+        "Immediate suspension of all maritime, fishing, and port cargo operations across the Odisha and Andhra Pradesh coastline.",
+        "Mandatory evacuation of all structures within 5 km of the coast — prioritize elderly, disabled, and children.",
+        "Pre-positioning of NDRF teams, emergency water reserves, medical supplies, and backup power generators.",
+        "Secure all rooftop infrastructure; expect severe tree uprooting, power outages, and disrupted communications.",
+        "Activate state emergency operations centres and open designated cyclone shelters in Puri, Kendrapara, and Bhadrak districts."
+      ]
+    },
+    "educational_breakdown": {
+      "title": "Atmospheric Thermodynamics & Mechanics: Cyclone Sagar",
+      "thermal_engine_sst": "At 30.2°C — well above the 26.5°C cyclogenesis threshold — enormous latent heat of condensation is transferred from warm sea surface waters to the lower troposphere, fueling the explosive vertical eyewall convection that drives intensification.",
+      "pressure_wind_relationship": "Central pressure has crashed to 955 hPa (vs. 1013 hPa ambient). This 58 hPa deficit creates an extreme pressure gradient force that violently accelerates air inward, producing the devastating 100-knot winds we observe.",
+      "coriolis_and_rotation": "Due to Earth's rotation, the Coriolis force deflects converging surface winds counter-clockwise in the Northern Hemisphere, generating the cyclonic vorticity that organizes the spiral rainbands and maintains the eye structure.",
+      "rapid_intensification_mechanics": "Rapid Intensification occurred because vertical wind shear dropped below 8 knots, ocean heat content was extremely high (>80 kJ/cm²), and the warm core aligned vertically — creating a chimney effect that tripled the intensification rate.",
+      "student_takeaway": "Cyclones are giant heat engines: they convert warm ocean thermal energy into rotational kinetic energy. The warmer and deeper the ocean heat, the stronger the engine — which is why Bay of Bengal's record SSTs are so dangerous."
+    },
+    "source": "demo-json-engine",
+    "timestamp": "2026-09-29T09:30:00Z"
+  }
+}

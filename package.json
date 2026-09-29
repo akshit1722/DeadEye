@@ -1,0 +1,24 @@
+{
+  "name": "deadeye-cyclone-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cyclone Early Warning, Monitoring, and Educational Dashboard Monorepo",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "dev:node": "npm run dev --prefix backend-node",
+    "start:node": "npm run start --prefix backend-node",
+    "dev:python": "cd backend-python && .venv\\Scripts\\python -m uvicorn main:app --reload --port 8000"
+  },
+  "keywords": [
+    "cyclone",
+    "early-warning",
+    "disaster-management",
+    "fastapi",
+    "express",
+    "react",
+    "gemini"
+  ],
+  "author": "Team sillygoose",
+  "license": "MIT"
+}
